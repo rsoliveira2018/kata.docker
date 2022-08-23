@@ -11,3 +11,5 @@ services:
     environment:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin
+    volumes:
+      - C:\keycloak_themes:/opt/keycloak/themes
